@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6061
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    Ortholinear Keyboards
+#define MANUFACTURER    OLKB
 #define PRODUCT         The Preonic Keyboard
 #define DESCRIPTION     A compact ortholinear keyboard
 
@@ -36,6 +36,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS { D2, D5, B5, B6, D3 }
 #define MATRIX_COL_PINS { F1, F0, B0, C7, F4, F5, F6, F7, D4, D6, B4, D7 }
 #define UNUSED_PINS
+
+#define AUDIO_VOICES
+#define C6_AUDIO
 
 #define BACKLIGHT_PIN B7
 
@@ -63,7 +66,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* ws2812 RGB LED */
 #define RGB_DI_PIN D1
-#define RGBLIGHT_TIMER
+#define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 28     // Number of LEDs
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
