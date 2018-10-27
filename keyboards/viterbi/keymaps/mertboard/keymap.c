@@ -15,9 +15,9 @@ extern keymap_config_t keymap_config;
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [BASE] = LAYOUT_kc(
     GRV,   1,     2,     3,     4,     5,     ESC,   BSLS,  6,     7,     8,     9,     0,     EQL,
-    TAB,   Q,     W,     E,     R,     T,     MSNC,  DTOP,  Y,     U,     I,     O,     P,     MINS,
-    LCTRL, A,     S,     D,     F,     G,     LBRC,  RBRC,  H,     J,     K,     L,     SCLN,  QUOT,
-    LSFT,  Z,     X,     C,     V,     B,     LPRN,  RPRN,  N,     M,     COMM,  DOT,   SLSH,  RSFT,
+    TAB,   Q,     W,     E,     R,     T,     LBRC,  RBRC,  Y,     U,     I,     O,     P,     MINS,
+    LCTRL, A,     S,     D,     F,     G,     LPRN,  RPRN,  H,     J,     K,     L,     SCLN,  QUOT,
+    LSFT,  Z,     X,     C,     V,     B,     MSNC,  DTOP,  N,     M,     COMM,  DOT,   SLSH,  RSFT,
     MPRV,  MPLY,  MNXT,  LALT,  LGUI,  SPC,   BSPC,  ENT,   SPC,   FN1,   LEFT,  DOWN,  UP,    RIGHT
   ),
 
