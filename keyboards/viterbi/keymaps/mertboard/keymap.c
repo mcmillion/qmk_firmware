@@ -18,7 +18,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     TAB,   Q,     W,     E,     R,     T,     LBRC,  RBRC,  Y,     U,     I,     O,     P,     MINS,
     LCTRL, A,     S,     D,     F,     G,     LPRN,  RPRN,  H,     J,     K,     L,     SCLN,  QUOT,
     LSFT,  Z,     X,     C,     V,     B,     MSNC,  DTOP,  N,     M,     COMM,  DOT,   SLSH,  RSFT,
-    MPRV,  MPLY,  MNXT,  LALT,  LGUI,  SPC,   BSPC,  ENT,   SPC,   FN1,   LEFT,  DOWN,  UP,    RIGHT
+    VOLD,  MUTE,  VOLU,  LALT,  LGUI,  SPC,   BSPC,  ENT,   SPC,   FN1,   LEFT,  DOWN,  UP,    RIGHT
   ),
 
   [ALT] = LAYOUT_kc(
@@ -26,6 +26,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     __,    __,    MS_U,  __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,
     __,    MS_L,  MS_D,  MS_R,  __,    __,    __,    __,    LEFT,  DOWN,  UP,    RIGHT, __,    __,
     __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,
-    VOLD,  MUTE,  VOLU,  __,    BTN3,  BTN2,  BTN1,  __,    __,    TRNS,    __,    __,    __,    __
+    MPRV,  MPLY,  MNXT,  __,    BTN3,  BTN2,  BTN1,  __,    __,    TRNS,    __,    __,    __,    __
   )
 };
