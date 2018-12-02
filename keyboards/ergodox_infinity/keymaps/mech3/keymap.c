@@ -25,13 +25,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |--------+------+------+------+------+------|  (   |           |   )  |------+------+------+------+------+--------|
    * | LShft  |   Z  |   X  |   C  |   V  |   B  |      |           |      |   N  |   M  |   ,  |   .  |  /   | RShft  |
    * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
-   *   | Prev | Play | Next | LAlt |  LOS |                                       |  L1  | Left | Down |  Up  | Right|
+   *   | VolDn| Play | VolUp| LAlt |  LOS |                                       |  L1  | Left | Down |  Up  | Right|
    *   `----------------------------------'                                       `----------------------------------'
    *                                        ,-------------.       ,-------------.
    *                                        | C-Up | F11  |       |C-Left|C-Right|
    *                                 ,------|------|------|       |------+-------+------.
    *                                 |      |      | Hyper|       | RAlt |       |      |
-   *                                 | Bksp |  Del |------|       |------| Enter | Space|
+   *                                 | Space| Bksp |------|       |------| Enter | Space|
    *                                 |      |      | Space|       | ROS  |       |      |
    *                                 `--------------------'       `---------------------'
    */
@@ -42,10 +42,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,         KC_Q,        KC_W,        KC_E,        KC_R,        KC_T,        KC_LBRC,
     KC_LCTRL,       KC_A,        KC_S,        KC_D,        KC_F,        KC_G,
     KC_LSFT,        KC_Z,        KC_X,        KC_C,        KC_V,        KC_B,        KC_LPRN,
-    KC_MPRV,        KC_MPLY,     KC_MNXT,     KC_LALT,     KC_LGUI,
+    KC_VOLD,        KC_MPLY,     KC_VOLU,     KC_LALT,     KC_LGUI,
     LCTL(KC_UP),    KC_F11,
     KC_HYPR,
-    KC_BSPC,        KC_DEL,      KC_SPC,
+    KC_SPC,         KC_BSPC,     KC_SPC,
 
     // Right Hand
     KC_BSLS,        KC_6,        KC_7,        KC_8,        KC_9,        KC_0,        KC_EQL,
@@ -69,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * |---------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
     * |         |      |      |      |      |      |      |           |      |      |      |      |      |      |        |
     * `---------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
-    *   | VolDn | Mute | VolUp|      |      |                                       | Trans|      |      |      |  EPRM  |
+    *   | MPrev | Mute | MNext|      |      |                                       | Trans|      |      |      |  EPRM  |
     *   `-----------------------------------'                                       `----------------------------------'
     *                                        ,-------------.       ,-------------.
     *                                        |      |      |       |      |      |
@@ -86,7 +86,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_NO,          KC_NO,       KC_NO,       KC_MS_U,     KC_NO,       KC_NO,       KC_NO,
     KC_NO,          KC_NO,       KC_MS_L,     KC_MS_D,     KC_MS_R,     KC_NO,
     KC_NO,          KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,
-    KC_VOLD,        KC_MUTE,     KC_VOLU,     KC_NO,       KC_NO,
+    KC_MPRV,        KC_MUTE,     KC_MNXT,     KC_NO,       KC_NO,
     KC_NO,          KC_NO,
     KC_NO,
     KC_BTN1,        KC_BTN2,     KC_BTN3,
