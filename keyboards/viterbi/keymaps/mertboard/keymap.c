@@ -26,6 +26,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    F11,
     __,    __,    __,    __,    __,    __,    __,    __,    LEFT,  DOWN,  UP,    RIGHT, __,    __,
     __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,    __,
-    MPRV,  MUTE,  MNXT,  __,    __,    __,    __,    __,    __,    TRNS,  __,    __,    __,    __
+    MPRV,  MUTE,  MNXT,  __,    __,    __,    DEL,   __,    __,    TRNS,  __,    __,    __,    __
   )
 };
