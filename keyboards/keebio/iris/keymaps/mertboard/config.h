@@ -1,5 +1,5 @@
 /*
-Copyright 2017 Danny Nguyen <danny@hexwire.com>
+Copyright 2017 Danny Nguyen <danny@keeb.io>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -15,21 +15,11 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef CONFIG_USER_H
-#define CONFIG_USER_H
+#pragma once
 
-#include "../../config.h"
-
-/* Use I2C or Serial, not both */
-
-#define USE_SERIAL
 // #define USE_I2C
-
-/* Select hand configuration */
-
-// #define MASTER_LEFT
-// #define MASTER_RIGHT
 #define EE_HANDS
+#define PERMISSIVE_HOLD
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
@@ -37,14 +27,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
-
-#define MOUSEKEY_DELAY 250
-#define MOUSEKEY_INTERVAL 16
-#define MOUSEKEY_MAX_SPEED 4
-#define MOUSEKEY_TIME_TO_MAX 20
-#define MOUSEKEY_WHEEL_MAX_SPEED 1
-#define MOUSEKEY_WHEEL_TIME_TO_MAX 40
-
-#define PERMISSIVE_HOLD
-
-#endif
