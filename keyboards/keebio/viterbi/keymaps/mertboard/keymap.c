@@ -7,7 +7,7 @@ extern keymap_config_t keymap_config;
 #define BASE 0
 #define ALT  1
 
-#define KC_ECTRL LCTL_T(KC_ESC)
+/* #define KC_ECTRL LCTL_T(KC_ESC) */
 #define KC_FN1   MO(1)
 #define KC___    KC_NO
 
@@ -15,7 +15,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [BASE] = LAYOUT_kc(
     GRV,   1,     2,     3,     4,     5,     ESC,   BSLS,  6,     7,     8,     9,     0,     EQL,
     TAB,   Q,     W,     E,     R,     T,     LBRC,  RBRC,  Y,     U,     I,     O,     P,     MINS,
-    ECTRL, A,     S,     D,     F,     G,     LPRN,  RPRN,  H,     J,     K,     L,     SCLN,  QUOT,
+    LCTRL, A,     S,     D,     F,     G,     LPRN,  RPRN,  H,     J,     K,     L,     SCLN,  QUOT,
     LSFT,  Z,     X,     C,     V,     B,     LT,    GT,    N,     M,     COMM,  DOT,   SLSH,  RSFT,
     VOLD,  MPLY,  VOLU,  LALT,  LGUI,  SPC,   BSPC,  ENT,   SPC,   FN1,   LEFT,  DOWN,  UP,    RIGHT
   ),
