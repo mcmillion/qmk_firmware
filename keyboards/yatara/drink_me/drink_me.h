@@ -1,4 +1,4 @@
-/* Copyright 2019 Mechlovin
+/* Copyright 2020 Yatara
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,4 +16,10 @@
 
 #pragma once
 
-// place overrides here
+#include "quantum.h"
+
+#define LAYOUT( \
+    K00, K01, K02, K03 \
+) { \
+    { K00, K01, K02, K03 } \
+}
