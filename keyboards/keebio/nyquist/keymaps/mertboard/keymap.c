@@ -36,9 +36,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|          |------+------+------+------+------+------|
  * |      |      |  Up  |      |      |      |          |  <   |  >   |  `   |  F11 |  F12 |  _   |
  * |------+------+------+------+------+------|          |------+------+------+------+------+------|
- * | Caps | Left | Down | Right|      | LED  |          | Left | Down |  Up  | Right|  \   |  |   |
+ * | Caps | Left | Down | Right|      |      |          | Left | Down |  Up  | Right|  \   |  |   |
  * |------+------+------+------+------+------|          |------+------+------+------+------+------|
- * |      |      |      |      |      |      |          |  (   |  )   |  {   |  }   |  [   |  ]   |
+ * | LED  |      |      |      |      |      |          |  (   |  )   |  {   |  }   |  [   |  ]   |
  * |------+------+------+------+------+------|          |------+------+------+------+------+------|
  * | Prev | Play | Next |      |  Del |      |          |      | FnEnt|      |  Del |      | Reset|
  * `-----------------------------------------'          `-----------------------------------------'
@@ -46,8 +46,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_MOD] = LAYOUT( \
   KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_PLUS, \
   _______, _______, KC_UP,   _______, _______, _______, KC_LT,   KC_GT,   KC_GRV,  KC_F11,  KC_F12,  KC_UNDS, \
-  KC_CAPS, KC_LEFT, KC_DOWN, KC_RGHT, _______, BL_STEP, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_BSLS, KC_PIPE, \
-  _______, _______, _______, _______, _______, _______, KC_LPRN, KC_RPRN, KC_LCBR, KC_RCBR, KC_LBRC, KC_RBRC, \
+  KC_CAPS, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_BSLS, KC_PIPE, \
+  BL_STEP, _______, _______, _______, _______, _______, KC_LPRN, KC_RPRN, KC_LCBR, KC_RCBR, KC_LBRC, KC_RBRC, \
   KC_MPRV, KC_MPLY, KC_MNXT, _______, KC_DEL,  _______, _______, _______, _______, KC_DEL,  _______, RESET    \
 ),
 
