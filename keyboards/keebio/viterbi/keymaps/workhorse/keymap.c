@@ -16,7 +16,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     GRV,   1,     2,     3,     4,     5,     ESC,   BSLS,  6,     7,     8,     9,     0,     EQL,
     TAB,   Q,     W,     E,     R,     T,     LBRC,  RBRC,  Y,     U,     I,     O,     P,     MINS,
     LCTRL, A,     S,     D,     F,     G,     LPRN,  RPRN,  H,     J,     K,     L,     SCLN,  QUOT,
-    LSFT,  Z,     X,     C,     V,     B,     LT,    GT,    N,     M,     COMM,  DOT,   SLSH,  RSFT,
+    LSFT,  Z,     X,     C,     V,     B,     LCBR,  RCBR,  N,     M,     COMM,  DOT,   SLSH,  RSFT,
     VOLD,  MPLY,  VOLU,  LALT,  LGUI,  SPC,   BSPC,  ENT,   SPC,   FN1,   LEFT,  DOWN,  UP,    RIGHT
   ),
 
